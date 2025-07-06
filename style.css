@@ -1,0 +1,640 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  margin: 1px;
+  padding-top: 1px;
+  padding-left: 5px;
+  padding-right: 8px;
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  width: 100px;
+  height: 48px;
+  background-image: url("amazon.png");
+  background-size: cover;
+}
+
+.border {
+  border: none;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+.nav-address {
+  align-content: center;
+  height: 48px;
+  width: 70px;
+  padding-right: 9px;
+  padding-left: 9px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.add1 {
+  font-size: 10px;
+  color: #cccccc;
+  margin-left: 8px;
+  margin-bottom: 3px;
+}
+
+.add-icon {
+  display: flex;
+}
+
+.add2 {
+  margin-left: 3px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+  width: 850px;
+  height: 40px;
+  margin-left: 6px;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.search-select {
+  height: 100%;
+  width: 50px;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  font-size: 12px;
+  font-weight: 550;
+  color: rgb(77, 76, 76);
+  background-color: #e6e6e6;
+  border-right: 1px solid #ccc;
+}
+
+.search-input {
+  flex: 1;
+  height: 100%;
+  width: 740px;
+  color: rgb(43, 42, 42);
+  border: none;
+  outline: none;
+  padding: 11px 10px 10px 10px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(43, 42, 42);
+  background-color: white;
+}
+
+.search-box {
+  display: flex;
+}
+
+.searchicon {
+  width: 55px;
+  height: 100%;
+  background-color: #f2b527;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  cursor: pointer;
+  font-size: 40px;
+  border-radius: 0 4px 4px 0;
+}
+
+.searchicon:hover {
+  background-color: #e4a927;
+}
+
+.lang {
+  align-content: center;
+  display: flex;
+  align-items: flex-end;
+  align-content: center;
+  text-align: center;
+  width: 74px;
+  height: 45px;
+  margin-left: 18px;
+  margin-right: 10px;
+  padding-left: 3px;
+  padding-bottom: 9px;
+}
+
+.lang_flag {
+  width: max-content;
+  background-image: url("english.png");
+  background-size: cover;
+  margin-right: 3px;
+  filter: brightness(0.75);
+}
+
+.lang-select {
+  color: white;
+  background-color: #0f1111;
+  font-weight: 750;
+  border: none;
+}
+
+.sign_in {
+  align-content: center;
+  height: 50px;
+  width: 145px;
+}
+
+.sign1 {
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.sign2 {
+  background-color: #0f1111;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.return {
+  width: 60px;
+  height: 50px;
+  padding: 3px;
+  align-content: center;
+  margin-left: 20px;
+  margin-bottom: 3px;
+}
+
+.return1 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.return2 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cart {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  margin: 5px 5px 5px 20px;
+  padding: 7px;
+  align-items: last baseline;
+}
+
+.cart1 {
+  height: 35px;
+  width: 25px;
+  margin: 10px 0px 10px 10px;
+}
+
+.item {
+  color: #f2b527;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.cart2 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.border1:hover {
+  border: 1.5px solid #f2b527;
+}
+
+.dealbar {
+  background-color: #272642;
+  padding: 10px;
+  height: 17px;
+  display: flex;
+  align-content: center;
+  color: white;
+  align-items: center;
+}
+
+.all {
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 7px;
+}
+
+.all p {
+  margin-left: 5px;
+}
+
+.menubar {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 501;
+  margin-left: 5px;
+}
+
+.menuitem {
+  margin: 8px;
+  padding: 8px;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 320px;
+  background-image: url("hero.jpg");
+  background-size: cover;
+  justify-content: center;
+  align-content: center;
+}
+
+.herotext {
+  background-color: #f7f5f5;
+  height: 40px;
+  width: 93%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-bottom: 25px;
+  border-radius: 7px;
+}
+
+.herotext a {
+  text-decoration: none;
+  color: #007483;
+}
+
+.shopsection {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(244, 115, 18);
+}
+
+.box {
+  border: none;
+  background-color: white;
+  height: 400px;
+  width: 20%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.boxhome {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box h2 {
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.home {
+  width: 40%;
+  height: 126px;
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.home1 {
+  width: 100%;
+  height: 90%;
+  background-image: url("home1.jpg");
+  background-size: cover;
+}
+
+.home2 {
+  width: 100%;
+  height: 90%;
+  background-image: url("home2.jpg");
+  background-size: cover;
+}
+
+.home3 {
+  width: 100%;
+  height: 90%;
+  background-image: url("home3.jpg");
+  background-size: cover;
+}
+
+.home4 {
+  width: 100%;
+  height: 90%;
+  background-image: url("home4.jpg");
+  background-size: cover;
+}
+
+.box a {
+  font-size: 13px;
+  margin-left: 25px;
+  color: rgb(29, 135, 234);
+  font-weight: 540;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.gaming {
+  width: 90%;
+  height: 80%;
+  background-image: url(gaming.jpg);
+  background-size: cover;
+  align-self: center;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.fashion1 {
+  width: 100%;
+  height: 90%;
+  background-image: url("fashion1.jpg");
+  background-size: cover;
+}
+
+.fashion2 {
+  width: 100%;
+  height: 90%;
+  background-image: url("fashion2.jpg");
+  background-size: cover;
+}
+
+.fashion3 {
+  width: 100%;
+  height: 90%;
+  background-image: url("fashion3.jpg");
+  background-size: cover;
+}
+
+.fashion4 {
+  width: 100%;
+  height: 90%;
+  background-image: url("fashion4.jpg");
+  background-size: cover;
+}
+
+.bath1 {
+  width: 100%;
+  height: 90%;
+  background-image: url("bath1.jpg");
+  background-size: cover;
+}
+
+.bath2 {
+  width: 100%;
+  height: 90%;
+  background-image: url("bath2.jpg");
+  background-size: cover;
+}
+
+.bath3 {
+  width: 100%;
+  height: 90%;
+  background-image: url("bath3.jpg");
+  background-size: cover;
+}
+
+.bath4 {
+  width: 100%;
+  height: 90%;
+  background-image: url("bath4.jpg");
+  background-size: cover;
+}
+
+.shopsection2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(208, 207, 206);
+  margin-top: 30px;
+}
+
+.kitchen {
+  width: 80%;
+  height: 126px;
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.boxhome2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.kitchenbottom {
+  width: 20%;
+  height: 80px;
+  font-size: 12px;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  font-weight: 500;
+  margin-bottom: 65px;
+}
+
+.kitchen1 {
+  width: 100%;
+  height: 90%;
+  background-image: url("kitchen1.jpg");
+  background-size: cover;
+}
+
+.kitchen2 {
+  width: 100%;
+  height: 90%;
+  background-image: url("kitchen2.jpg");
+  background-size: cover;
+}
+
+.kitchen3 {
+  width: 100%;
+  height: 90%;
+  background-image: url("kitchen3.jpg");
+  background-size: cover;
+}
+
+.kitchen4 {
+  width: 100%;
+  height: 90%;
+  background-image: url("kitchen4.jpg");
+  background-size: cover;
+}
+
+.toy {
+  width: 90%;
+  height: 80%;
+  background-image: url(toys.jpg);
+  background-size: cover;
+  align-self: center;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.gifts {
+  width: 90%;
+  height: 80%;
+  background-image: url(gifts.jpg);
+  background-size: auto;
+  align-self: center;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.furniture1 {
+  width: 100%;
+  height: 90%;
+  background-image: url("furniture1.jpg");
+  background-size: cover;
+}
+
+.furniture2 {
+  width: 100%;
+  height: 90%;
+  background-image: url("furniture2.jpg");
+  background-size: cover;
+}
+
+.furniture3 {
+  width: 100%;
+  height: 90%;
+  background-image: url("furniture3.jpg");
+  background-size: cover;
+}
+
+.furniture4 {
+  width: 100%;
+  height: 90%;
+  background-image: url("furniture4.jpg");
+  background-size: cover;
+}
+
+.backtotop {
+  color: rgb(240, 237, 237);
+  background-color: #0f384c;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footerinfo {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  background-color: #012b3f;
+}
+
+.footerbox {
+  margin: 10px;
+  height: 290px;
+  width: max-content;
+  padding: 10px;
+  color: rgb(184, 182, 182);
+}
+
+.footerbox h3 {
+  color: white;
+  margin: 7px;
+}
+
+.footerbox a {
+  text-decoration: none;
+  display: block;
+  margin: 7px;
+  font-size: 14px;
+}
+
+.amazon-main-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: #012b3f;
+  border-top: 0.2px solid rgb(115, 114, 114);
+}
+
+.amazon-footer {
+  height: 25px;
+  width: 85px;
+  background-image: url("amazon_footer.png");
+  background-size: cover;
+  margin: 100px;
+  border-radius: 4px;
+}
+
+.english {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  color: rgb(106, 105, 105);
+  margin: 7px;
+  border: 0.2px solid rgb(115, 114, 114);
+  border-radius: 4px;
+}
+
+.english i {
+  margin-right: 3px;
+}
+
+.finalstep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #020b10;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.footer_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #011e2e;
+  color: white;
+  height: 40px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.finaltext {
+  margin: 5px 7px 5px 5px;
+}
+
+.box {
+  transition: transform 0.3s ease-in;
+}
+
+.box:hover {
+  transform: scale(1.07);
+}
+
+.shopsection div {
+  border-radius: 7px;
+}
+
+.shopsection2 div {
+  border-radius: 7px;
+}
